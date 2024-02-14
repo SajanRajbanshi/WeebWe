@@ -1,0 +1,83 @@
+:root{
+    --text:#868687;
+    --background:#ffffff;
+    --bordercolor:#000000;
+    --min_width:100px;
+    --min_height_banner:20px;
+    --radius:10px;
+}
+body{
+    background-color: black;
+    
+}
+.Container{
+    display:block;
+    width: 95vw;
+    background-color: gray;
+    margin: auto;
+    justify-content: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-color: var(--bordercolor);
+    border-radius: var(--radius);
+    border-style: solid;
+}
+.Banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: lightgreen;
+    top:2vh;
+    width: 95vw;
+    min-width: 100px;
+    height: 7vh;
+    min-height: 30px;
+    border-style: solid;
+    border-color: var(--bordercolor);
+    border-radius: var(--radius);
+}
+.Ads{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    margin-top: 7vh;
+    width: 95vw;
+    min-width: var(--min_width);
+    height: 50vh;
+    min-height: 20px;
+    border-color: var(--bordercolor);
+    border-radius: var(--radius);
+    border-style: solid;
+
+
+}
+.Products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    margin-top: 5px;
+    width: 95vw;
+    min-width: var(--min_width);
+    height: 100vh;
+    border-radius: var(--radius);
+    border-style: solid;
+    border-color: var(--bordercolor);
+
+}
+.About{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+    margin-top: 5px;
+    width: 95vw;
+    min-height: var(--min_width);
+    height: 50vh;
+    border-color: var(--bordercolor);
+    border-radius: var(--radius);
+    border-style: solid;
+    
+}
