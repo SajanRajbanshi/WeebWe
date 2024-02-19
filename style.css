@@ -6,20 +6,26 @@
     --min_height_banner:20px;
     --radius:30px;
 }
+
 body{
     background-color:white;
+    min-width:fit-content;
+    min-width: fit-content;
 }
+
 .Container{
     display:block;
     width: 95vw;
     background-color:white;
     margin: auto;
+    overflow: hidden;
     justify-content: center;
     padding-top: 3vh;
     padding-bottom: 3vh;
     border-color: var(--bordercolor);
     border-radius: var(--radius);
 }
+
 .Banner{
     display: flex;
     align-items: center;
@@ -28,21 +34,24 @@ body{
     background-color:white;
     top:2vh;
     width: 95vw;
-    min-width: 100px;
+    min-width: fit-content;
     height: 7vh;
-    min-height: 30px;
+    min-height:60px;
     border-style: solid;
     border-color: var(--bordercolor);
     border-radius: 50px;
 }
+
 .logo{
     margin-left: 10px;
     margin-top: 2px;
 }
+
 .cart
 {
     margin-right: 10px;
 }
+
 .bannerText
 {
     font-size: 40px;
@@ -61,17 +70,50 @@ body{
     border-color: var(--bordercolor);
     border-radius: var(--radius);
 }
+
 .Products{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightblue;
     margin-top: 5px;
     width: 95vw;
-    min-width: var(--min_width);
     height:fit-content;
     border-radius: var(--radius);
 }
+
+.gridView
+{
+    display: grid;
+    max-width: fit-content;
+    max-height: fit-content;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.product{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:30vw;
+    height: 35vw;
+    border-radius: var(--radius);
+}
+
+.productImg
+{
+    border-radius: var(--radius);
+    height: 30vw;
+}
+.OrderButton{
+    border-radius: var(--radius);
+    border-style: solid;
+    background-color: white;
+}
+
+
+
 .About{
     padding-top: 20px;
     display: flex;
