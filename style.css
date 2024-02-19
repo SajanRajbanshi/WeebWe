@@ -4,30 +4,28 @@
     --bordercolor:#000000;
     --min_width:100px;
     --min_height_banner:20px;
-    --radius:10px;
+    --radius:30px;
 }
 body{
-    background-color: black;
-    
+    background-color:white;
 }
 .Container{
     display:block;
     width: 95vw;
-    background-color: gray;
+    background-color:white;
     margin: auto;
     justify-content: center;
     padding-top: 3vh;
     padding-bottom: 3vh;
     border-color: var(--bordercolor);
     border-radius: var(--radius);
-    border-style: solid;
 }
 .Banner{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
-    background-color: lightgreen;
+    background-color:white;
     top:2vh;
     width: 95vw;
     min-width: 100px;
@@ -35,8 +33,21 @@ body{
     min-height: 30px;
     border-style: solid;
     border-color: var(--bordercolor);
-    border-radius: var(--radius);
+    border-radius: 50px;
 }
+.logo{
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.cart
+{
+    margin-right: 10px;
+}
+.bannerText
+{
+    font-size: 40px;
+}
+
 .Ads{
     display: flex;
     align-items: center;
@@ -49,9 +60,6 @@ body{
     min-height: 20px;
     border-color: var(--bordercolor);
     border-radius: var(--radius);
-    border-style: solid;
-
-
 }
 .Products{
     display: flex;
@@ -61,23 +69,33 @@ body{
     margin-top: 5px;
     width: 95vw;
     min-width: var(--min_width);
-    height: 100vh;
+    height:fit-content;
     border-radius: var(--radius);
-    border-style: solid;
-    border-color: var(--bordercolor);
-
 }
 .About{
+    padding-top: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: lightcyan;
+    justify-content: space-around;
+    background-color:white;
     margin-top: 5px;
     width: 95vw;
     min-height: var(--min_width);
-    height: 50vh;
-    border-color: var(--bordercolor);
     border-radius: var(--radius);
-    border-style: solid;
-    
+}
+.heading{
+    text-align: center;
+    font-size:20px;
+    font-style: solid;
+}
+
+.socials
+{
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-around;
+
+}
+.discriptions
+{
+    padding-top: 20px;
 }
