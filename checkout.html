@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecheckout.css">
+    <link rel="icon" type="image/x-icon" href="res/logo.png">
     <title>Checkout</title>
 </head>
 <body>
-    This is yet to be developed
+    <div class="container">
+        <div class="banner">
+            <div class="brandlogo">
+                <a href="index.html">
+                    <img class="logo" src="res/logo.png" alt="logo" width="60px">
+                </a>
+                <a class="links" href="index.html">
+                    <span class="bannerText">WeebWe</span>
+                </a>
+            </div>
+            <div class="shopping">
+                <a class="links" href="index.html">
+                    <span class="heading">Shop More</span>
+                </a>
+            </div>
+        </div>
+        <div class="text">
+            <span>Please fill the relevent Details</span>
+        </div>
+        <div class="details">
+            <div class="parameters">
+                <form onclick="recordDetails" class="form">
+                    <span class="headings">Customer Details</span><br>
+                    <span class="parameter">First Name:</span><br>
+                    <input type="text" required="true" class="InputBox" placeholder="eg. Sajan"><br>
+                    <span class="parameter">Last Name:</span><br>
+                    <input type="text" required="true" class="InputBox" placeholder="eg. Rajbanshi"><br>
+                    <span class="headings">Contact Details</span><br>
+                    <span class="parameter">Phone no.:</span><br>
+                    <input type="number" required="true" class="InputBox" placeholder="eg. 1234567890"><br>
+                    <span class="parameter">E-mail:</span><br>
+                    <input type="email" class="InputBox" placeholder="eg. abs@gmail.com"><br>
+                    <span class="headings">Address Details</span><br>
+                    <span class="parameter">Zip/Postal code:</span><br>
+                    <input type="number" required="true" class="InputBox"><br>
+                    <span class="parameter">Address Line:</span><br>
+                    <input type="text" required="true" class="InputBox"><br>
+                    <span class="parameter">Apartment, Suite, etc</span><br>
+                    <input type="text" class="InputBox"><br>
+                    <span class="parameter">State:</span><br>
+                    <input type="text" required="true" class="InputBox"><br>
+                    <span class="parameter">City:</span><br>
+                    <input type="text" required="true" class="InputBox"><br>
+                    <input type="button" value="Proceed to pay" class="checkoutbutton">
+                </form>
+            </div>
+        </div>
+        <div class="about">
+            <div class="socialpart">
+                <span class="heading">
+                    Our Socials
+                </span>
+                <div class="socials">
+                    <a href="https://www.instagram.com/weebwe_/">
+                        <img src="res/instagram-svgrepo-com.svg" alt="insta" width="30px">
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61551927054241">
+                        <img src="res/facebook-svgrepo-com.svg" alt="facebook" width="30px">
+                    </a>
+                </div>
+            </div>
+            <div class="termpart">
+                <div class="heading">Terms and Conditions</div>
+                <div class="discriptions">
+                    <span class="rules">
+                        No exchange<br><br>
+                    </span>
+                    <span class="rules">Please Contact us if needed</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
