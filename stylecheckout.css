@@ -89,7 +89,8 @@ body{
 {
     margin-left: 150px;
     margin-top: 10px;
-    height: 35px;;
+    height: 35px;
+    background-color: white;
     border: solid black;
     border-radius: 15px;
     margin-bottom: 25px;
