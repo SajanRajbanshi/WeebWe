@@ -32,11 +32,13 @@ body{
     display: flex;
     align-items: center;
 }
-
+.logo{
+    width: 16vw;
+}
 .bannerText
 {
-    font-size: 40px;
-    margin-left: 10px;
+    font-size: 30px;
+    margin-left: 3px;
 }
 
 .heading{
@@ -73,7 +75,7 @@ body{
 }
 .text{
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .button
 {
@@ -93,7 +95,7 @@ body{
     padding-top: 90px;
     display: flex;
     justify-content:space-between;
-    width:95%;
+    width:100%;
     margin: auto;
 }
 
@@ -111,6 +113,7 @@ body{
 
 .rules
 {
+    margin-left: 10px;
     font-size: 15px;
 }
 .links
