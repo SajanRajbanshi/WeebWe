@@ -17,7 +17,7 @@ body{
 {
     padding-top: 10px;
     background-color:white;
-    width: 80vw;
+    width: 90vw;
     display: block;
     margin: auto;
 }
@@ -55,7 +55,7 @@ body{
 .productCard
 {
     margin-top: 10px;
-    width: 80vw;
+    width: 90vw;
     height: 30vh;
     border: solid black;
     border-radius: var(--radius);
