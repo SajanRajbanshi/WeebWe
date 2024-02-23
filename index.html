@@ -1,202 +1,126 @@
-:root{
-    --text:#868687;
-    --background:#ffffff;
-    --bordercolor:#000000;
-    --min_width:100px;
-    --min_height_banner:20px;
-    --radius:30px;
-}
-@keyframes horizontalscroll {
-    0%{
-        background-position: left;
-    }
-    50%{
-        background-position: right;
-    }
-    100%{
-        background-position: left;
-    }
-}
-
-body{
-    background-color:white;
-    min-width:fit-content;
-    min-width: fit-content;
-}
-
-.Container{
-    display:block;
-    width: 95vw;
-    background-color:white;
-    margin: auto;
-    justify-content: center;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    border-color: var(--bordercolor);
-    border-radius: var(--radius);
-}
-
-.Banner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    background-color:white;
-    top:2vh;
-    width: 95vw;
-    min-width: fit-content;
-    height: 7vh;
-    min-height:60px;
-    border-style: solid;
-    border-color: var(--bordercolor);
-    border-radius: 50px;
-}
-
-.logo{
-    margin-left: 10px;
-    margin-top: 2px;
-}
-
-.cart
-{
-    margin-right: 10px;
-}
-
-.bannerText
-{
-    font-size: 40px;
-}
-
-.Ads{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:8vh;
-    width: 95vw;
-    min-width: var(--min_width);
-    border-color: var(--bordercolor);
-    border-radius: var(--radius);
-}
-.adcontainer{
-    display:block;
-    width: 95vw;
-    min-width: var(--min_width);
-    margin: auto;
-    min-height: 20px;
-    background-image: url(res/marquepng.svg);
-    background-blend-mode: difference;
-    background-size: 150%;
-    background-repeat: repeat-x;
-    border-color: var(--bordercolor);
-    border-radius: var(--radius);
-    animation-name: horizontalscroll;
-    animation-iteration-count: infinite;
-    animation-duration: 40s;
-    animation-timing-function: ease-in-out;
-}
-.inneradcontainer{
-    margin-top: 30px;
-    display: block;
-    text-align: center;
-    
-}
-.adstext{
-    font-size: 4vw;
-}
-.adsheading{
-    font-size: 6vw;
-    font-weight: solid;
-}
-.inneradcontainer2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.aboutbutton
-{
-    margin-top: 20px;
-    margin-bottom: 30px;
-    width: 100px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: var(--radius);
-    border-color: black;
-    border-style: solid;
-}
-
-.Products{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5px;
-    width: 95vw;
-    height:fit-content;
-    border-radius: var(--radius);
-}
-
-.gridView
-{
-    display: grid;
-    /* max-width: fit-content;
-    max-height: fit-content; */
-    grid-template-columns: auto auto auto;
-    row-gap: 5px;
-    column-gap: 5px;
-}
-
-.product{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width:30vw;
-    height: 35vw;
-    border-radius: var(--radius);
-}
-
-.productImg
-{
-    border-radius: var(--radius);
-    height: 30vw;
-}
-.OrderButton{
-    border-radius: var(--radius);
-    border-style: solid;
-    background-color: white;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="res/logo.svg">
+    <title>WeebWe</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="Container">
 
 
 
-.About{
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    background-color:white;
-    margin-top: 5px;
-    width: 95vw;
-    min-height: var(--min_width);
-    border-radius: var(--radius);
-}
-.heading{
-    text-align: center;
-    font-size:20px;
-    font-style: solid;
-}
 
-.socials
-{
-    padding-top: 20px;
-    display: flex;
-    justify-content:space-around;
+        <div class="Banner">
+                <a class="logo" href="index.html">
+                    <img src="res/logo.svg" alt="weebweLogo" height="55px">
+                </a>
+                <span class="bannerText">WeebWe</span>
+                <a class="cart" href="cart.html">
+                    <img src="res/cart-large-minimalistic-svgrepo-com.svg" alt="cartimage" width="40px">
+                </a>
+        </div>
 
-}
-.discriptions
-{
-    padding-top: 20px;
-}
-.links
-{
-    text-decoration: none;
-    color:black
-}
+
+
+
+        <div class="Ads">
+            <div class="adcontainer">
+                <div class="inneradcontainer">
+                    <span class="adsheading">WeebWe</span>
+                    <div>
+                        <span class="adstext">Welcome, the best anime merch awaits you. </span>
+                    </div>
+                </div>
+                <div class="inneradcontainer2">
+                    <a href="about.html" class="links">
+                        <div class="aboutbutton">
+                            <span class="links">
+                                About
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="Products">
+            <div class="Notification">
+
+            </div>
+            <div class="gridView">
+                <div class="product">
+                    <a href="product.html">
+                        <img class="productImg" src="res/IMG_20240216_112351~2.jpg" alt="product1"><br>
+                    </a>
+                    <span>
+                        Stall Rs. 9000
+                        </span>
+                    <br>
+                    <button class="OrderButton">
+                        Order now
+                    </button>
+                </div>
+                <div class="product">
+                    <a href="product.html">
+                        <img class="productImg" src="res/IMG_20240216_112351~2.jpg" alt="product1"><br>
+                    </a>
+                    <span>
+                        Stall Rs. 9000
+                        </span>
+                    <br>
+                    <button class="OrderButton">
+                        Order now
+                    </button>
+                </div>
+                <div class="product">
+                    <a href="product.html">
+                        <img class="productImg" src="res/IMG_20240216_112351~2.jpg" alt="product1"><br>
+                    </a>
+                    <span>
+                        Stall Rs. 9000
+                        </span>
+                    <br>
+                    <button class="OrderButton">
+                        Order now
+                    </button>
+                </div>
+                <div class="product">4</div>
+                <div class="product">5</div>
+                <div class="product">6</div>
+                <div class="product">7</div>
+                <div class="product">8</div>
+                <div class="product">9</div>
+            </div>
+        </div>
+
+
+
+
+        <div class="About">
+            <div class="socialpart">
+                <span class="heading">
+                    Our Socials
+                </span>
+                <div class="socials">
+                    <a href="https://www.instagram.com/weebwe_/">
+                        <img src="res/instagram-svgrepo-com.svg" alt="insa" width="30px">
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61551927054241">
+                        <img src="res/facebook-svgrepo-com.svg" alt="facebook" width="30px">
+                    </a>
+                </div>
+            </div>
+            <div class="termpart">
+                <div class="heading">Terms and Conditions</div>
+                <div class="discriptions">yet to be described</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
