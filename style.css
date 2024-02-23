@@ -83,7 +83,7 @@ body{
     min-width: var(--min_width);
     margin: auto;
     min-height: 20px;
-    background-image: url(marquepng.svg);
+    background-image: url(res/marquepng.svg);
     background-blend-mode: difference;
     background-size: 150%;
     background-repeat: repeat-x;
