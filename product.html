@@ -3,9 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
+    <title>Product Name</title>
+    <link rel="icon" href="res/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="productstyle.css">
+
 </head>
 <body>
-    This part is yet to be developed
+    <script src="scriptproduct.js"></script>
+    <div class="container">
+        <div class="banner">
+            <div class="banner">
+                <div class="brandlogo">
+                    <a href="index.html">
+                        <img class="logo icons" src="res/logo.svg" alt="logo" width="60px">
+                    </a>
+                    <a class="links textscale" href="index.html">
+                        <span class="bannerText">WeebWe</span>
+                    </a>
+                </div>
+                <div class="textscale">
+                    <a class="links" href="index.html">
+                        <span class="heading">Shop More</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bar">
+        </div>
+
+
+
+        <div class="products">
+            <div class="productImgs">
+                <img src="res/IMG20240215125702~2-1.jpg" alt="productimage" class="image">
+                <img src="res/IMG_20240216_112351~2.jpg" alt="productimage" class="image frontimage">
+            </div>
+            <div class="productdescriptions">
+                <div class="name">Stall</div>
+                <div class="price">Rs. 9000</div>
+            </div>
+        </div>
+
+
+
+
+
+        <span class="heading indent">Choose size:</span>
+        <div class="varients">
+            <button id="s" class="Size icons" onclick="chooseSize('s')">
+                S
+            </button>
+            <button id="m" class="Size icons" onclick="chooseSize('m')">
+                M
+            </button>
+            <button id="l" class="Size icons" onclick="chooseSize('l')">
+                L
+            </button>
+            <button id="xl" class="Size icons" onclick="chooseSize('xl')">
+                XL
+            </button>
+            <button id="xxl" class="Size icons" onclick="chooseSize('xxl')">
+                XXL
+            </button>
+        </div>
+        <div class="buttons">
+            <div class="AddToCart button">
+                <span>Add to cart</span>
+            </div>
+            <div class="BuyNow button">
+                <span>Buy now</span>
+            </div>
+        </div>
+        <div class="bar">
+        </div>
+
+
+
+
+        <div class="about">
+            <div class="socialpart">
+                <span class="heading">
+                    Our Socials
+                </span>
+                <div class="socials">
+                    <a href="https://www.instagram.com/weebwe_/">
+                        <img class="icons" src="res/instagram-svgrepo-com.svg" alt="insta" width="30px">
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61551927054241">
+                        <img class="icons" src="res/facebook-svgrepo-com.svg" alt="facebook" width="30px">
+                    </a>
+                </div>
+            </div>
+            <div class="termpart">
+                <div class="heading">Terms and Conditions</div>
+                <div class="discriptions">
+                    <span class="rules">
+                        No exchange<br><br>
+                    </span>
+                    <span class="rules">Please Contact us if needed</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
