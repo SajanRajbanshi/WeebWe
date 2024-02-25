@@ -7,7 +7,24 @@
     --radius:30px;
 }
 
+.icons{
+    transition: 1s;
+}
+.icons:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.textscale{
+    transition: 1s;
+}
+.textscale:hover{
+    transition: 0.5s;
+    transform: scale(1.2);    
+}
+
 body{
+    transition: 1s;
     background-color:white;
     min-width:fit-content;
     min-width: fit-content;
@@ -15,6 +32,7 @@ body{
 
 .container
 {
+    transition: 1s;
     padding-top: 10px;
     background-color:white;
     width: 90vw;
@@ -23,12 +41,14 @@ body{
 }
 
 .banner{
+    transition: 1s;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .brandlogo{
+    transition: 1s;
     display: flex;
     align-items: center;
 }
@@ -37,15 +57,22 @@ body{
 }
 .bannerText
 {
+    transition: 1s;
     font-size: 30px;
     margin-left: 3px;
 }
 
 .heading{
-    text-align:center;
+    transition: 1s;
+    text-align: center;
     font-size: 18px;
     color:black;
     font-style: solid;
+}
+
+.heading:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
 }
 .title
 {
@@ -55,6 +82,7 @@ body{
 }
 .productCard
 {
+    transition: 1s;
     margin-top: 10px;
     width: 90vw;
     height: 30vh;
@@ -63,23 +91,27 @@ body{
 }
 .calculations
 {
+    transition: 1s;
     display: flex;
     justify-content: space-between;
     width: 90vw;
 }
 .total
 {
+    transition: 1s;
     display:inline-block;
     margin-top: 15px;
-    width: 45vw;
+    width: 100%;
     border-radius: var(--radius);
 }
 .text{
+    transition: 1s;
     margin-left: 20px;
     font-size: 18px;
 }
 .button
 {
+    transition: 1s;
     margin-top:15px;
     display: flex;
     align-items: center;
@@ -91,8 +123,14 @@ body{
     border-radius: var(--radius);
 
 }
+.button:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color:lightgreen;
+}
 
 .about{
+    transition: 1s;
     padding-top: 90px;
     display: flex;
     justify-content:space-between;
@@ -102,6 +140,7 @@ body{
 
 .socials
 {
+    transition: 1s;
     padding-top: 20px;
     display: flex;
     justify-content:space-around;
@@ -119,6 +158,7 @@ body{
 }
 .links
 {
+    transition: 1s;
     text-decoration: none;
     color:black
 }
