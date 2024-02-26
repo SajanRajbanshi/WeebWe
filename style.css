@@ -261,6 +261,25 @@ body{
     border-radius: var(--radius);
     height: 30vw;
 }
+.productImgs{
+    transition: 1s;
+    position: relative;
+    width: 100%;
+}
+.image{
+    transition: 1s;
+    width: 100%;
+    border-radius: var(--radius);
+}
+.frontimage{
+    transition: 1s;
+    position: absolute;
+    left: 0px;
+}
+.frontimage:hover{
+    transition: 0.5s;
+    opacity: 0%;
+}
 .OrderButton{
     transition: 1s;
     background-color: white;
