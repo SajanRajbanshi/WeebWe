@@ -3,7 +3,7 @@
 // const dataJson = require('productDetails.json');
 // console.log(typeof dataJson);
 // console.log(dataJson);
-frontIMG=['res/ProductImg/2_Hashira.jpg',
+var frontIMG=['res/ProductImg/2_Hashira.jpg',
 'res/ProductImg/2_BakiHanma.jpg',
 'res/ProductImg/2_Chopper.jpg',
 'res/ProductImg/2_DemonSlayer.jpg',
@@ -15,7 +15,7 @@ frontIMG=['res/ProductImg/2_Hashira.jpg',
 'res/ProductImg/2_jjk.jpg',
 'res/ProductImg/2_Zoro.jpg']
 
-backIMG=['res/ProductIMG/1_Hashira.jpg',
+var backIMG=['res/ProductIMG/1_Hashira.jpg',
 'res/ProductIMG/1_BakiHanma.jpg',
 'res/ProductIMG/1_Chopper.jpg',
 'res/ProductIMG/1_DemonSlayer.jpg',
@@ -27,7 +27,7 @@ backIMG=['res/ProductIMG/1_Hashira.jpg',
 'res/ProductImg/1_jjk.jpg',
 'res/ProductImg/1_Zoro.jpg']
 
-Name=['Hashira','Baki','Chopper','Demon Slayer','Demon Slayer White','Eren','Gear 5','Itachi X Sasuke','Toji','JJK','Zoro']
+var Name=['Hashira','Baki','Chopper','Demon Slayer','Demon Slayer White','Eren','Gear 5','Itachi X Sasuke','Toji','JJK','Zoro']
 
 
 window.onload=function() {
