@@ -15,7 +15,7 @@ var frontIMG=['res/ProductImg/2_Hashira.jpg',
 'res/ProductImg/2_jjk.jpg',
 'res/ProductImg/2_Zoro.jpg']
 
-var backIMG=['res/ProductIMG/1_Hashira.jpg',
+var backIMG=['res/ProductImg/1_Hashira.jpg',
 'res/ProductImg/1_BakiHanma.jpg',
 'res/ProductImg/1_Chopper.jpg',
 'res/ProductImg/1_DemonSlayer.jpg',
